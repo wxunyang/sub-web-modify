@@ -496,6 +496,16 @@ export default {
             label: "通用",
             options: [
               {
+                label: "YoungsRule_Simple 简洁分组（for 机场）",
+                value:
+                  "https://raw.githubusercontent.com/wxunyang/ACL/main/YoungsRule_Simple.ini"
+              },
+              {
+                label: "YoungsRule_Simple 简洁分组（for 个人节点）",
+                value:
+                  "https://raw.githubusercontent.com/wxunyang/ACL/main/YoungsRule_Simple_personal.ini"
+              },
+              {
                 label: "默认",
                 value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
               },
